@@ -1,10 +1,10 @@
 .wrapper {
-    height: 100vh;
+    height: calc(100vh - var(--welcome-nav-height));
     color: black;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to bottom, #ffffff 0%, #ccffcc 100%);
-
+    margin-bottom: var(--welcome-nav-height);
     >header {
         padding-top: 66px;
         flex-shrink: 0;
