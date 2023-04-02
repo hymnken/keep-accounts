@@ -1,6 +1,6 @@
 import { defineComponent, ref } from "vue";
 
-export const App2 = defineComponent({
+export const App = defineComponent({
   setup() {
     const count = ref(0);
     const onClick = () => {
@@ -10,7 +10,6 @@ export const App2 = defineComponent({
       <>
             <div>{count.value}</div>
             <button onClick={onClick}>+1</button>
-            
       </>
     
   },
